@@ -10,7 +10,9 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="C:\\Users\\AN574BV\\git\\TejaToJasmiCucu1507221713\\TejaToJasmiCucu150722\\MvnTestTejaToJasmiDemo\\src\\test\\java\\features",glue= {"stepSefinitions"},plugin= "html:target/cucumber-reports/CucumberTestReport.html")
+@CucumberOptions(features="C:\\Users\\AN574BV\\git\\TejaToJasmiCucu1507221713\\TejaToJasmiCucu150722\\MvnTestTejaToJasmiDemo\\src\\test\\java\\features",glue= {"stepSefinitions"},plugin= "json:src/tes/java/reports/cucumber-reports/CucumberTestReport.json")
 public class TestRunner1 {
+	
+	
 	
 	}
